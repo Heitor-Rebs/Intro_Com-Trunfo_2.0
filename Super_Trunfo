@@ -37,7 +37,7 @@ int main() {
     scanf("%d",&opcao);
     switch (opcao){
         case 1:
-            /* Determinando carta vencedora utilizando o critéiro de PIB per Capita com IF e Else */
+            /* Determinando carta vencedora utilizando IF e Else */
             printf("Comparação de cartas (Atributo: População)\n");
             printf("Carta 1 - %s - %d\n", nome, populacao);
             printf("Carta 2 - %s - %d\n", nome2, populacao2);
