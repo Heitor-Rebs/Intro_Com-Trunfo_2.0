@@ -35,6 +35,8 @@ int main() {
     printf("(4) Número de pontos turísticos\n");
     printf("(5) Densidade Demográfica\n");
     scanf("%d",&opcao);
+
+    /* Utilizando switch para executar a opção escolhida pelo usuário */
     switch (opcao){
         case 1:
             /* Determinando carta vencedora utilizando IF e Else */
